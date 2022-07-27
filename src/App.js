@@ -28,8 +28,8 @@ function App() {
         A fairly common point of confusion within React is how mutating state
         via useState works behind the scenes...
       </p>
-      <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 ">
-        <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl w-1/3 m-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-16">
+        <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl  m-auto w-full lg:w-1/2">
           <span class="inline-block text-blue-500 dark:text-blue-400">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ function App() {
             <span class="mx-1">Increment Counter</span>
           </button>
         </div>
-        <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl w-1/3 m-auto">
+        <div class="p-8 space-y-3 border-2 border-blue-400 dark:border-blue-300 rounded-xl  m-auto w-full lg:w-1/2">
           <span class="inline-block text-blue-500 dark:text-blue-400">
             <svg
               xmlns="http://www.w3.org/2000/svg"
